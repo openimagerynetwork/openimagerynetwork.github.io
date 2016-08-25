@@ -5,12 +5,77 @@
     <meta name="description" content="A discoverable network of openly licensed imagery">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <link rel="shortcut icon" href="assets/graphics/meta/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Jaldi|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/main.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
 
-  <body>
-    <div>Welcome to the Open Imagery Network. Read more at <a href="https://github.com/openimagerynetwork">https://github.com/openimagerynetwork</a></div>
+  <script>
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top - 80
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+  </script>
 
-</body>
+  <body>
+    <section id="section--cover">
+      <div class="section--cover__img"></div>
+      <ul class="section--cover__links">
+        <a href="#section--questions"><li class="button"><span class="icon about"></span>About The Network</li></a>
+        <a href="#section--contribute"><li class="button"><span class="icon action"></span>Get Involved</li></a>
+      </ul>
+    </section>
+
+    <section id="section--questions">
+      <div class="questions--container">
+        <div class="questions--container__subcontainer">
+          <div class="questions--sub__image"></div>
+          <div class="questions--sub__line"></div>
+          <div class="questions--sub__text">
+            <h2 class="questions--title">What is Open Imagery Network?</h2>
+            <p><a href="">Open Imagery Network (OIN)</a> is a discoverable network of openly licensed imagery. Contributors to OIN make imagery and its associated metadata available under a common license. Information about the location and the storage type for contributed imagery and metadata can be found in this register. Anyone can access and read imagery found from this register, enabling tooling to be built that searches across all participating open imagery data.</p>
+            <p>Open Imagery Network connects satellite and aerial imagery providers, humanitarian relief efforts, cloud hosting companies, uav and balloon mapping enthusiasts, governments and NGOs, mapping companies, and anyone else who is producing, hosting, and using aerial imagery.</p>
+            <p>Open Imagery Network allows access to open imagery without requiring one entity to host it all. The Open Imagery Network is simply a way of discovering the imagery that is available on the network, and does not provide hosting of imagery data. If you have imagery that you would like to contribute to OIN, but cannot provide hosting, please contact the OpenAerialMap team.</p>        
+          </div>
+        </div>
+      </div>
+      <div class="questions--container">
+        <div class="questions--container__subcontainer">
+          <div class="questions--sub__image"></div>
+          <div class="questions--sub__line"></div>
+          <div class="questions--sub__text">
+            <h2 class="questions--title">Who else is in the network?</h2>
+            <p>Open Imagery Network (OIN) is a discoverable network of openly licensed imagery. Contributors to OIN make imagery and its associated metadata available under a common license. Information about the location and the storage type for contributed imagery and metadata can be found in this register. Anyone can access and read imagery found from this register, enabling tooling to be built that searches across all participating open imagery data.</p>
+          </div>
+        </div>
+      </div>
+      <div class="questions--container">
+      </div>
+    </section>
+
+    <section id="section--contribute">
+      <h2 class="contribute--title">Contribute to Open Imagery Network</h2>
+      <div class="contribute--text">
+        <p>Open Imagery Network (OIN) is a discoverable network of openly licensed imagery. Contributors to OIN make imagery and its associated metadata available under a common license. Information about the location and the storage type for contributed imagery and metadata can be found in this register. Anyone can access and read imagery found from this register, enabling tooling to be built that searches across all participating open imagery data.
+        </p>
+        <div class="contribute--button">
+          <div class="button"><span class="icon github"></span>Find us on Github</div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="section--contact">
+      <p>Created with <img src="assets/graphics/heart-full.svg" width="14px" height="14px" /> by the <a href="https://hotosm.org/">Humanitarian OpenStreetMap Team</a></p>
+    </footer>
+  </body>
 </html>
