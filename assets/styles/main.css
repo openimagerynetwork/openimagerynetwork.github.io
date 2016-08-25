@@ -1,2 +1,188 @@
 html {}
-body {}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #012D62;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+a{
+	color: rgba(19,182,226, 1);
+	transition: 0.3s all;
+}
+
+a:hover{
+	color: rgba(19,182,226, 0.4);
+}
+
+a:visited{
+	color: rgba(19,182,226, 1);
+}
+
+/*font-family: 'Jaldi', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+/**
+ * Sections rgba(19,182,226, 1)
+ */
+#section--cover{
+	width:100%;
+	background-color: rgba(19,182,226, 0.3);
+	padding: 6em 0 10em 0;
+	top:0px;
+	left: 0px;
+}
+
+.section--cover__img{
+	margin: 0 auto;
+	width: 350px;
+	height: 306px;
+	background-image: url('../graphics/OIN-tern-logo.svg');
+	background-repeat: no-repeat;
+}
+
+.section--cover__links{
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	margin-top: 1em;
+	position:relative;
+}
+
+.button{
+	position: relative;
+	display: inline-block;
+	font-size: 1em;
+	margin: 0 0.75em;
+	padding: 0.5em 1.25em 0.5em 0.8em;
+	background-color: rgba(19,182,226, 0.5);
+	border-radius: 6px;
+	color: white;
+  box-shadow: 0px 2px 2px rgba(19,182,226, 0.7);
+	transition: 0.3s all;
+}
+
+.button:hover{
+	background-color: rgba(19,182,226, 1);
+	cursor: pointer;
+	bottom: 1px;
+}
+
+.button span.icon{
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right:8px;
+    margin-top:1px;
+}
+
+.button span.about{
+    background-image: url("../graphics/circle-question.svg");
+}
+.button span.action{
+    background-image: url("../graphics/globe.svg");
+}
+.button span.github{
+    background-image: url("../graphics/github.svg");
+}
+
+.section--cover__links li:active{
+	background-color: #129FC5;
+}
+
+#section--questions{
+	max-width: 900px;
+	margin: 4em auto 6em;
+}
+
+h2{
+	font-family: 'Jaldi', 'Open Sans', sans-serif;
+	color: rgba(19,182,226, 1);
+	font-size: 1.75em;
+  margin-bottom: 1em;
+}
+
+.questions--container{
+	margin-bottom: 2em;
+  clear: both;
+}
+
+.questions--sub__image{
+	width: 40%;
+	height: 300px;
+	border-right: 2px solid rgba(19,182,226, 0.1);
+	float: left;
+}
+
+.questions--sub__line{
+}
+
+.questions--sub__text{
+	max-width: 600px;
+	margin-bottom:3em;
+}
+
+.questions--sub__text p{
+	margin-bottom: 2em;
+}
+
+#section--contribute{
+	padding: 1em 0 4em;
+	background-color: rgba(19,182,226, 0.3);
+	height: 400px;
+	width: 100%;
+}
+
+.contribute--title{
+	padding-top: 2em;
+	margin: 0 auto 1em;
+	text-align: center;
+}
+
+.contribute--text{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.contribute--button{
+	text-align: center;
+	margin: 4em 0 4em;
+}
+
+#section--contact{
+	background-color: rgba(19,182,226, 1);
+	text-align:center;
+	padding: 1.5em 0 1.75em;
+	font-size: 0.8em;
+	color: rgba(255,255,255, 0.75);
+}
+
+#section--contact p img{
+	margin: 1px 2px 0;
+}
+/*
+span.love{
+    background-image: url("../graphics/heart-full.svg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+}
+*/
+#section--contact a{
+	color: white;
+}
+
+#section--contact a:hover{
+	color: rgba(255,255,255, 0.8);
+}
+
+#section--contact a:active{
+	color: white;
+}
+
+
