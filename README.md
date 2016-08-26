@@ -1,6 +1,6 @@
 # Open Imagery Network
 
-![](assets/graphics/OIN-tern-logo.svg?raw=true)
+![](assets/favicon/favicon-96x96.png?raw=true)
 
 The Open Imagery Network team is collaboration between a number of organizations and individuals. We're open with membership and contributions. Join us. 
 
