@@ -91,6 +91,10 @@ font-family: 'Open Sans', sans-serif;*/
     background-image: url("../graphics/github.svg");
 }
 
+.button a{
+		color: white;
+}
+
 .section--cover__links li:active{
 	background-color: #129FC5;
 }
