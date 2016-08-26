@@ -1,6 +1,7 @@
 html {}
 body {
-	font-family: 'Open Sans', sans-serif
+	font-family: 'Open Sans', sans-serif;
+	color: #012D62;
 }
 
 p{
@@ -96,7 +97,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 #section--questions{
 	max-width: 900px;
-	margin: 4em auto 0;
+	margin: 4em auto 6em;
 }
 
 h2{
@@ -130,7 +131,7 @@ h2{
 }
 
 #section--contribute{
-	padding: 0em 0 4em;
+	padding: 1em 0 4em;
 	background-color: rgba(19,182,226, 0.3);
 	width: 100%;
 }
