@@ -1,6 +1,6 @@
 # Open Imagery Network
 
-![](https://github.com/openimagerynetwork/openimagerynetwork.github.io/blob/master/assets/graphics/OIN-tern-logo.svg?raw=true)
+![](assets/graphics/OIN-tern-logo.svg?raw=true)
 
 The Open Imagery Network team is collaboration between a number of organizations and individuals. We're open with membership and contributions. Join us. 
 
