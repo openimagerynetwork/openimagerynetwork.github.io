@@ -1,0 +1,7 @@
+/* Contributors */
+
+@DylanMoriarty
+@smit1678
+@designmatty
+And everyone who has contributed to issues and code 
+development on https://github.com/openimagerynetwork
